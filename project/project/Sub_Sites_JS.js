@@ -5,12 +5,3 @@ function display_ct()
                 mytime=setTimeout('display_ct()',refresh=1000)
             }
 
-function callUs()
-{
-    alert("Call us on 0778797295");
-}
-
-function whatsaAppUs()
-                {
-                    alert("whatsaApp us on 0778797265");
-                }
