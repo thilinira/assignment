@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+    <Head>
+        <Title>Login Site</Title>
+        
+        <style>
+            .Txt{
+                color: black; 
+                text-align: left;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+                padding-left: 15px;
+            }
+
+            .container{
+                position: absolute;
+                margin-left:25%;
+                margin-top:40px;
+                padding: 60px;
+                background-color:rgba(171, 187, 221, 0.462);
+                border-radius: 10px;
+                box-shadow: -5px 5px 10px black;
+                ;
+            }
+
+            input.sb{
+                color:rgb(4, 56, 41);
+                background-color: rgb(255, 255, 255);
+                border-radius: 20px;
+                width: 210px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                font-weight: bolder;
+                margin-top: 20px;
+                padding: 10px;
+                }
+
+            input.sb:hover{background-color: rgb(43, 71, 60); color: white;}
+
+           .img{
+               border-radius: 50%;
+               padding-right: 30px;
+                width:400px;
+                height:400px;
+           }
+
+           .u{
+               background-color: rgba(46, 139, 86, 0);
+               border-color:white;
+               width: 200px;
+               height: 30px;
+               border-top: 20px;
+               border-left: 20px;
+               border-right: 20px;
+               padding-left: 5px;
+               color: white;
+                  
+           }
+           .u::placeholder{
+               color: white;
+               opacity: 0.6;
+           }
+
+        </style>
+        <script defer src="Form1.js"></script>
+    </Head>
+    <Body style="background-image: url(bg.jpg);">
+        <div id="error"></div>
+        <div class="box">
+            
+                <form class="container" id="form">
+                    <table>
+                     <tr> <td>  
+                    
+                    <td><h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif; padding-left: 15px;">Login</h1>
+                    <br>
+                    <input class="u" type="text" id="username" placeholder="Username" required><br><br>
+                    
+                    <input class="u" type="password" id="password"  placeholder="Password" required><br>
+                    <input class="sb" type="Submit" Value="Login"></td>
+                </table>
+                </form>
+        </div>
+    
+    </Body>
+</html>
