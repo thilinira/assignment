@@ -3,12 +3,12 @@ $servername="localhost";
 $username="root";
 $password="";
 // Create connection
-$conn = new mysqli($servername, $username, $password);
-$sql = "CREATE DATABASE Travel_Req";
+$conn = new mysqli($username, $password);
+$sql = "CREATE DATABASE Login Details";
     
 if($conn->query($sql)===TRUE)
     {
-        echo "Database was created successfully.";
+        echo "Created database successfully.";
     }
     else
     {
